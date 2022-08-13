@@ -1,0 +1,93 @@
+@media (max-width:935px){
+    .sidebar{
+        display: none;
+    }
+
+    .conteudo{
+        justify-content: center;
+    }
+
+
+    .posts{
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: 0;
+    }
+
+
+    
+}
+   
+
+@media (max-width:614px){
+
+    
+    .topo-desktop{
+        display: none;
+    }
+    .topo-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 54px;
+        width: 100%;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        position: fixed;
+        padding: 0 18px;
+        z-index: 2;
+    }
+    
+    .icones-inf-mobile{
+        display: flex;
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        height: 54px;
+        z-index: 2;
+    
+    }
+    .none-desktop{
+        display:contents;
+    }
+    
+    .conteudo{
+        justify-content: center;
+        margin-top: 54px;
+        
+    }
+    .seta-story{
+        display: none;
+    }
+
+    .posts{
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    
+    }
+    .feed{
+        margin-top: 0px;}
+
+    .post-feed{
+        width:100%;
+        height: auto;
+    }
+
+    .foto-post img{
+        width:100%;
+        height: auto;
+    }
+    
+    .foto-post video{
+        width:100%;
+        height: auto;
+    }
+}
